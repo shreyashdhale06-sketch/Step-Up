@@ -1,0 +1,6 @@
+{
+  "name": "StepUp AI",
+  "description": "A gamified step counter with AI fitness coach, virtual garden, and workout tracker.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
