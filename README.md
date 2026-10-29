@@ -1,47 +1,47 @@
-Step-Up 👟
-Smart Step Tracking & AI-Powered Fitness Application
+# Step-Up 👟
+### Smart Step Tracking & AI-Powered Fitness Application
 
-*Step-Up* is an Android-based fitness application designed to encourage users to maintain an active and healthy lifestyle through daily step tracking, personalized fitness goals, activity monitoring, and interactive gamification.
+**Step-Up** is an Android-based fitness application designed to encourage users to maintain an active and healthy lifestyle through daily step tracking, personalized fitness goals, activity monitoring, and interactive gamification.
 
 The application combines Android sensor technology, AI-powered fitness assistance, and virtual plant growth to make walking more engaging, motivating, and rewarding.
 
-Features
+## ✨ Features
 
-Daily Step Tracking: Tracks walking activity using supported Android step-counting sensors.
-Fitness Dashboard: Displays daily steps, goal progress, estimated calories burned, distance covered, and walking time.
-Daily Goals: Helps users monitor their progress toward personalized step targets.
-Activity History: Maintains records of daily steps and walking activity.
-AI Fitness Coach: Integrates the Gemini API to provide AI-powered conversational fitness assistance.
-Virtual Garden: Allows users to nurture a virtual plant as they achieve walking milestones, earning water drops for every 250 steps.
-Gamification: Encourages consistency through achievements, daily challenges, and activity streaks.
-User Profile: Supports personal fitness preferences and profile information.
-Notifications and Settings: Provides access to relevant updates and application preferences.
-Local Data Storage:Uses Room Database and DataStore to manage structured activity records and user preferences.
+- **Daily Step Tracking:** Tracks walking activity using supported Android step-counting sensors.
+- **Fitness Dashboard:** Displays daily steps, goal progress, estimated calories burned, distance covered, and walking time.
+- **Daily Goals:** Helps users monitor their progress toward personalized step targets.
+- **Activity History:** Maintains records of daily steps and walking activity.
+- **AI Fitness Coach:** Integrates the Gemini API to provide AI-powered conversational fitness assistance.
+- **Virtual Garden:** Allows users to nurture a virtual plant as they achieve walking milestones, earning water drops for every 250 steps.
+- **Gamification:** Encourages consistency through achievements, daily challenges, and activity streaks.
+- **User Profile:** Supports personal fitness preferences and profile information.
+- **Notifications and Settings:** Provides access to relevant updates and application preferences.
+- **Local Data Storage:** Uses Room Database and DataStore to manage structured activity records and user preferences.
 
-Technology Stack
+## 🛠️ Technology Stack
 
-Programming Language: Kotlin
-Development Environment: Android Studio
-User Interface: Jetpack Compose
-Design System: Material 3
-Architecture: MVVM (Model–View–ViewModel)
-Database:Room Database
-Preference Storage: DataStore
-Asynchronous Programming: Kotlin Coroutines and Flow
-Activity Tracking: Android Sensor APIs
-AI Integration: Gemini API
-Build System: Gradle Kotlin DSL
+- **Programming Language:** Kotlin
+- **Development Environment:** Android Studio
+- **User Interface:** Jetpack Compose
+- **Design System:** Material 3
+- **Architecture:** MVVM (Model–View–ViewModel)
+- **Database:** Room Database
+- **Preference Storage:** DataStore
+- **Asynchronous Programming:** Kotlin Coroutines and Flow
+- **Activity Tracking:** Android Sensor APIs
+- **AI Integration:** Gemini API
+- **Build System:** Gradle Kotlin DSL
 
- Application Architecture
+## 🏗️ Application Architecture
 
 Step-Up follows an MVVM-inspired architecture to maintain separation between the user interface, application logic, and data management.
 
-UI Layer:** Displays the dashboard, activity history, AI Coach, virtual garden, profile, and settings using Jetpack Compose.
-ViewModel Layer:** Manages screen states and coordinates user interactions.
-Repository Layer:** Connects application logic with the available data sources.
-Data Layer:** Uses Room Database for structured records and DataStore for user preferences.
-Sensor Layer:** Uses supported Android step-counting sensors to track walking activity.
-AI Layer:** Integrates Gemini-powered functionality for conversational fitness assistance.
+- **UI Layer:** Displays the dashboard, activity history, AI Coach, virtual garden, profile, and settings using Jetpack Compose.
+- **ViewModel Layer:** Manages screen states and coordinates user interactions.
+- **Repository Layer:** Connects application logic with the available data sources.
+- **Data Layer:** Uses Room Database for structured records and DataStore for user preferences.
+- **Sensor Layer:** Uses supported Android step-counting sensors to track walking activity.
+- **AI Layer:** Integrates Gemini-powered functionality for conversational fitness assistance.
 
 ## 🚀 Getting Started
 
